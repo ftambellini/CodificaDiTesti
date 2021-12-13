@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes" ?>
+<!-- now the items are correctly nested, opening and closing are the same attributes, added sibling and child attributes -->
+<earth>    
+      <country>
+	  Russia Italy
+	  <capital>
+	  Moscow Rome
+	  </capital>
+	  </country>
+</earth>
+

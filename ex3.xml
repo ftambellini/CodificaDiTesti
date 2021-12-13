@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<root>
+    <htmlCode> <![CDATA[
+        <h1> Form : </h1>
+        <form method="POST" name="registrazione" action="" onsubmit="return checkNome();">
+            <!--aggiungere name="" in tutti i campi del form (è quello che riconosce js)-->
+            <label for="Cognome"> Inserisci il tuo cognome : </label>
+            <textarea maxlength="40" id="Cognome" name="Cognome"> </textarea>
+            <br>
+           <label for="nome"> Inserisci il tuo nome : </label>
+           
+           <textarea maxlength="30" id="nome" name="nome"> </textarea>
+           <br>
+           <label for="matricola">Inserisci il numero della tua matricola (12 caratteri) : </label>
+           <textarea id="matricola" maxlength="12" minlength="12"></textarea>
+           ]]>
+    </htmlCode>
+</root>
